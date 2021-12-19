@@ -1,0 +1,144 @@
+<html>
+<head>
+<style type="text/css">
+BODY
+{BACKGROUND-color:#0000FF;
+MARGIN:20px,30px,30px,20px}
+#menuver{width:12cm
+padding:0;
+Margin:0;
+font:verdana,sans-serif,12px}
+#menuver ul{margin:0;
+padding:0;
+list-style:none}
+li{
+margin:0;
+boder-botton:1px solid #f00}
+#menuver li a{
+TEXT-TRANSFORM: MAIUSCULA;
+FONT-WEIGHT:bold;
+COLOR:#00FF00;
+display:block;
+padding:5px 5px 5px 0,5cm
+border-left: 10px solid #ffc0cb;
+border-right: 10px solid #fff5ee;
+background-color: #ffff}
+#menuver li a:visited {
+TEXT-TRANSFORM:capitalize;
+FONT-WEIGHT:30px;
+COLOR:#FFFF00
+boder-left:10px solid #ffcc
+boder-right:10px solid #fff
+background-color: #ffe4e1}
+#menuver li a:houver{
+TEXT-TRANSFORM: uppercase;
+FONT-WEIGHT:40px;
+COLOR:#663300}
+#menuver li a::active
+{TEXT-TRANSFORM:lowercase;
+FONT-WEIGHT:50px;
+COLOR:#FF3399}
+ H1
+{COLOR:#990033;
+BACKGROUNG-color:#660066;
+FONT-FAMILY:ariel;
+FONT-STYLE: medium;
+FONT-SIZE:  20px;
+TEXT-DECORATION  
+LETTER SPACING:0,5cm}
+   H2
+{COLOR:#006600
+BACKGROUNG-color:#FFCC00;
+FONT-FAMILY :arial;
+FONT-STYLE :medium;
+FONT-SIZE :20px;
+TEXT-DECORATION
+LETTER SPACING:0,5cm}
+        H3
+{COLOR:#FF9933;
+BACKGROUNG-color:#9933CC;
+FONT-FAMILY :ariel;
+FONT-STYLE :medium;
+FONT-SIZE  :20px;
+FONT-WEIGHT:30px;
+TEXT-DECORATION:negrito;
+TEXT-ALIGN :left;
+LETTER SPACING:0,5cm}
+*#sel 1
+{COLOR:#330000;
+BACKGROUNG:
+FONT-FAMILY:ariel;
+FONT-STYLE:medium;
+FONT-SIZE :20px;
+TEXT-DECORATION:underline;
+LETTER SPACING:0,5cm;
+BORDER-WIDTH:6px;
+BORDER-COLOR :#00000;
+BORDER-STYLE:bold;
+BORDER:10px}
+*#sel 2
+{COLOR:#003300;
+BACKGROUNG:
+FONT-FAMILY :ariel;
+FONT-STYLE :medium;
+FONT-SIZE:30px;
+TEXT-DECORATION:underline;
+LETTER SPACING:0,4cm;
+BORDER-WIDTH:5px;
+BORDER-COLOR:#FF6633;
+BORDER-STYLE :inset;
+BORDER:10px}
+        TD
+{COLOR: 
+BACKGROUNG
+FONT-FAMILY:ariel;
+FONT-STYLE:medium;
+FONT-SIZE:25px;
+TEXT-DECORATION:negrito;
+BORDER-WIDTH:4px;
+BORDER-COLOR:#006600;
+BORDER:10px}
+     TH
+{COLOR 
+BACKGROUNG
+FONT-FAMILY:ariel;
+FONT-STYLE:medium;
+FONT-SIZE:25px;
+TEXT-DECORATION:negrito;
+LETTER SPACING :0,6cm;
+BORDER-STYLE:inset;
+BORDER:10px}
+</style>
+<title>Exercicio 4</title>
+</head>
+<body>
+<h1>ID e Class</h1>
+<p id="sel1">O id serve como um identificador único,
+ou seja em todo o seu HTML só pode ser usado esse id uma vez, 
+ele é mais usado para menus, e em javascript.
+Para ser criado um id no arquivo css deve ser colocado um # na frente do nome.
+Já o class pode ser usado quantas vezes se quizer,
+o que permite se atribuir um layout a muitas partes.
+Para ser criado uma class no arquivo css deve ser colocado um . (ponto) na frente do nome.
+Sendo então usados para identificar elementos. </p>
+<br>
+<h2>Div e SPAN</h2>
+<p id="sel2">A diferença entre span e div é que span é um elemento inline e geralmente é usado para um pequeno bloco de HTML,
+e div é um elemento de bloco (o que basicamente é equivalente a ter uma quebra de linha antes e depois do elemento)
+e é usado para agrupar blocos maiores de código (geralmente divisões da página como menu cabeçalho, etc.)
+Sendo usados para agrupar elementos de um mesmo grupo.</p> 
+<br>
+<h3>CSS interno e Externo</h3>
+<p id="sel1">O CSS Externo e usado para criar folhas em diferentes estilos,fora da pagina em que sera utilizado,
+podendo ssim ser utilizado em mas de uma pgina.
+Já o CSS interno e utilizado dentro da pagina em que sera utilizado,podemdoassim ser utilizado em uma unica pagina.
+Assim sendo o melhor para ser utilizado e o Externo,pois atravês de uma unica pagina pode se modificar e ver seus erros.
+No interno e mas rapido a sua confecção de pagina.Mas ambos tem o poupoamento de tempo,ganho de flexibilidade,paginas leves de facil visualização.
+Rapides na coreção de erros,aumento da consistência,Controle de Leyout e grafico.</p>
+<div id="menuver li"> 
+<a href="pagina2.html">Link para pagina2</a>
+<a href="pagina3.html">Link para pagina3</a>
+<a href="pagina4.html">Link para pagina4</a>
+</div>
+</body>
+</html>
